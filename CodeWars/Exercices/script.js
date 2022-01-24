@@ -1,11 +1,11 @@
-console.log("Hello World!");
 
-function squareSumsRow(N) {
-    
-    let arr = [];
-    for(let i = 1; i <= N; i++) {
-        arr.push(i);
-    }
-    console.log(arr);
-};
-squareSumsRow(15);
+
+const cannonsReady = (gunners) => Object.entries(gunners)
+.some(e => e[1] === 'nay') ? console.log('Shiver me timbers!') : console.log('Fire!');     
+var a = {'Mike':'aye','Joe':'aye','Johnson':'aye','Peter':'aye'},
+b = {'Mike':'aye','Joe':'nay','Johnson':'aye','Peter':'aye'};
+
+
+
+
+cannonsReady(b);
